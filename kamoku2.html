@@ -4,6 +4,35 @@
     <meta charset="utf-8">
     <title>MySQL</title>
     <style>
+        ul{
+            display: table;
+            margin: 0 auto;
+            padding: 0;
+            width: 80%;
+            text-align: center;
+        }
+        ul li{
+            display: table-cell;
+            min-width: 50px;
+        }
+        ul li a{
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            text-decoration: none;
+            color: #ccc;
+            font-weight: bold;
+        }
+        ul li.current{
+            border: 3px solid #555;
+        }
+        ul li.current a{
+            color: #555;
+        }
+        ul li a:hover{
+            color: #E71B1F;
+        }
+        
         body{
             background: #b0c4de;
             font-family: 'Times New Roman',serif;
@@ -57,6 +86,13 @@
     </style>
   </head>
   <body>
+      <nav>
+          <ul>
+              <li><a href="kamoku1.html">音楽</a></li>
+                <li><a href="kamoku2.html">MySQL</a></li>
+                <li><a href="kamoku3.html">Java</a></li>
+          </ul>
+      </nav>
     <div class="sql">
      <h1>MySQL</h1>
       <p>～MySQLの紹介～</p>
